@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click heart to open - Babi </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Babi,</strong>
+                        <p>
+                            Happy New Year to the both of us! I am thankful na you were part of my 2024
+                            and I am looking forward to more memories with you this 2025. 
+                            You are my biggest and best plot twist of 2024. You know how much I love you
+                            and how much I am willing to show my genuine love. I will never get tired of loving you.
+                            I know how much you love letters kaya I made a surprise for you kaya I made you a digital letter.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
